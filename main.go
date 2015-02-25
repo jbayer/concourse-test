@@ -14,6 +14,6 @@ func main() {
 	}
 
 	http.Serve(listener, http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "test")
+		fmt.Fprintln(w, "new content")
 	}))
 }
