@@ -1,0 +1,5 @@
+---
+image: docker:///golang
+run:
+  path: ./concourse-test/test.sh
+
