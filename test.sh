@@ -13,4 +13,4 @@ trap "kill $pid" EXIT
 
 sleep 1
 
-curl http://localhost:8000 | grep "test"
+curl http://localhost:8000 | grep "content"
