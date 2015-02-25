@@ -3,7 +3,7 @@
 set -e -x
 set -o pipefail
 
-go build -o app main.go
+go build -o app $(dirname $0)/main.go
 
 PORT=8000 ./app &
 
